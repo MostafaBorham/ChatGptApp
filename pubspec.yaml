@@ -1,0 +1,71 @@
+name: chat_gpt_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0-279.3.beta <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable:
+  flutter_svg:
+  http:
+  internet_connection_checker:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+#  firebase_storage:
+  get_it:
+  dartz:
+  auto_size_text:
+  dio:
+  easy_localization:
+  flutter_bloc:
+  bloc:
+  image_picker:
+  cupertino_icons: ^1.0.6
+  shared_preferences:
+  get:
+  form_validator:
+  carousel_slider:
+  smooth_page_indicator:
+  chat_gpt_flutter: ^1.0.16
+  expandable_page_view:
+  flutter_native_splash:
+  device_preview_minus:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#b6b6c9"
+  color_dark: "#343541"
+  image: assets/images/app_icon.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#b6b6c9"
+    color_dark: "#343541"
+    image: assets/images/app_icon.png
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+        - asset: assets/fonts/Raleway-SemiBold.ttf
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/translations/
+    - assets/images/delete_icon.svg

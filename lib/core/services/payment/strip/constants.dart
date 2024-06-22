@@ -1,0 +1,4 @@
+abstract class StripConstants{
+  static const String publishableKey='pk_test_51PNbkMIzFpH2UM4dzy6J9yHnRLDjf5aE8utp7JNx9Ftv29WrFAZaGRAX0splsqwnoNNzakUNxn5UkBhb8RJRaS0P00UKEUL1SW';
+  static const String secretKey='sk_test_51PNbkMIzFpH2UM4dio8pZ7GuVi3A2pGN8Nh0w21MfyOLzRAOIEwEVXsfMe02ta3QSIdCWNDPwkt3S1pf19AaSNkN00fomaUfJL';
+}

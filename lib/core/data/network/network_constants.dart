@@ -1,0 +1,12 @@
+const String apiKey='sk-proj-dPGO4ZCcTN76BaQzvTDRT3BlbkFJDfyMzLKWkwhyQbJjM9Ve';
+const String baseUrl='https://api.openai.com';
+const String contentType='application/json';
+const String chatGptModel='gpt-3.5-turbo';
+const double temperature=0;
+const double maxToken=250;
+const double topP=1;
+const String accept = "Accept";
+const int successStatusCode = 200;
+const int failStatusCode = 404;
+const int chatsHistoryPageSize = 10;
+const String chatsCollection = 'Chats';
